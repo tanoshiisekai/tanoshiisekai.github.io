@@ -35,7 +35,7 @@
 'copy_assets:output/assets/js/popper.min.js', (29696, 424)
 'render_taxonomies:output/index.html', (30208, 5043)
 'copy_assets:output/assets/js/html5.js', (35328, 401)
-'sitemap:output/sitemap.xml', (50688, 1696)
+'sitemap:output/sitemap.xml', (50688, 1693)
 'render_posts:timeline_changes', (36864, 109)
 '_scan_locs:sitemap', (46592, 733)
 'copy_assets:output/assets/css/nikola_rst.css', (37888, 415)

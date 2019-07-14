@@ -140,6 +140,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "文章归档"),
         ("/categories/", "标签"),
+        ("https://github.com/tanoshiisekai/", "GitHub"),
         ("/rss.xml", "RSS 源"),
     ),
 }
