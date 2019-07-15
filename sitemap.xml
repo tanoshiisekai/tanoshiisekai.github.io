@@ -7,42 +7,54 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://tanoshiisekai.github.io/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/2019/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/archive.html</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tanoshiisekai.github.io/categories/android/</loc>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tanoshiisekai.github.io/categories/cat_android/</loc>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/cat_python/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/cat_za-wen/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/python/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/za-wen/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/posts/modulenotfounderror-no-module-named-flaskext/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tanoshiisekai.github.io/posts/tong-guo-adbwu-xian-lian-jie-androidzhen-ji/</loc>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/posts/wo-de-kuai-le-shi-jie/</loc>
-  <lastmod>2019-07-15T02:56:00Z</lastmod>
+  <lastmod>2019-07-15T10:10:00Z</lastmod>
  </url>
 </urlset>

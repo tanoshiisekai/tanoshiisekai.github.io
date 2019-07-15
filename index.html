@@ -11,7 +11,7 @@
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="https://tanoshiisekai.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/modulenotfounderror-no-module-named-flaskext/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/tong-guo-adbwu-xian-lian-jie-androidzhen-ji/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">跳到主内容</a>
@@ -63,7 +63,52 @@ navbar-dark bg-dark
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/modulenotfounderror-no-module-named-flaskext/" class="u-url">ModuleNotFoundError: No module named 'flask.ext'</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/tong-guo-adbwu-xian-lian-jie-androidzhen-ji/" class="u-url">通过ADB无线连接Android真机</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                とくめい
+            </span></p>
+            <p class="dateline">
+            <a href="posts/tong-guo-adbwu-xian-lian-jie-androidzhen-ji/" rel="bookmark">
+            <time class="published dt-published" datetime="2019-07-15T18:00:57+08:00" itemprop="datePublished" title="2019-07-15 18:00">2019-07-15 18:00</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>1、先通过USB连接手机，打开调试。</p>
+<pre class="literal-block">
+long@happyhome:~$ adb devices
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+T3Q4C15B04017525    device
+</pre>
+<pre class="literal-block">
+long@happyhome:~$ adb tcpip 5555
+restarting in TCP mode port: 5555
+</pre>
+<p>2、查看手机IP地址。</p>
+<pre class="literal-block">
+long@happyhome:~$ adb shell ip -f inet addr show wlan0
+39: wlan0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1400 qdisc mq state UP qlen 1000
+    inet 192.168.2.111/24 brd 192.168.2.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+</pre>
+<p>3、根据上一步中得到IP地址，通过无线连接手机。</p>
+<pre class="literal-block">
+long@happyhome:~$ adb connect 192.168.2.111:5555
+connected to 192.168.2.111:5555
+</pre>
+<p>4、断开USB线，查看连接状态。</p>
+<pre class="literal-block">
+long@happyhome:~$ adb devices
+List of devices attached
+192.168.2.111:5555  device
+</pre>
+<p>5、可以看出已经通过无线连接到手机。</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/modulenotfounderror-no-module-named-flaskext/" class="u-url">ModuleNotFoundError: No module named 'flask.ext'</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 とくめい
