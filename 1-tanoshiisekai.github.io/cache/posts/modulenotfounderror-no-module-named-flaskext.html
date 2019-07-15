@@ -1,0 +1,7 @@
+<p>错误信息</p>
+<pre class="code python"><a name="rest_code_9a67b8cdaaae48cba4e28dfebd28e4bc-1"></a><span class="ne">ModuleNotFoundError</span><span class="p">:</span> <span class="n">No</span> <span class="n">module</span> <span class="n">named</span> <span class="s1">&#39;flask.ext&#39;</span>
+</pre><p>把</p>
+<pre class="code python"><a name="rest_code_05e3e159992e4bc2bc5c2223508d8cea-1"></a><span class="kn">from</span> <span class="nn">flask.ext.sqlalchemy</span> <span class="kn">import</span> <span class="n">SQLAlchemy</span>
+</pre><p>改成</p>
+<pre class="code python"><a name="rest_code_a1efbafcc62842d68e628558278a9e03-1"></a><span class="kn">from</span> <span class="nn">flask_sqlalchemy</span> <span class="kn">import</span> <span class="n">SQLAlchemy</span>
+</pre>
