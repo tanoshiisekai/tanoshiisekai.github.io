@@ -23,6 +23,10 @@
     long@happyhome:~$ adb tcpip 5555
     restarting in TCP mode port: 5555
 
+
+.. TEASER_END
+
+
 2、查看手机IP地址。
 
 ::

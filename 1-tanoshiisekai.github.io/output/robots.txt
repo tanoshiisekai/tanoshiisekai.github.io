@@ -1,0 +1,4 @@
+Sitemap: https://tanoshiisekai.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: tanoshiisekai.github.io
