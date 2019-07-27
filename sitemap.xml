@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/archive.html</loc>
-  <lastmod>2019-07-22T09:52:00Z</lastmod>
+  <lastmod>2019-07-27T17:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/</loc>
-  <lastmod>2019-07-22T09:52:00Z</lastmod>
+  <lastmod>2019-07-27T17:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/categories/android/</loc>
@@ -34,6 +34,10 @@
   <lastmod>2019-07-22T09:52:00Z</lastmod>
  </url>
  <url>
+  <loc>https://tanoshiisekai.github.io/categories/cat_linux/</loc>
+  <lastmod>2019-07-27T17:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://tanoshiisekai.github.io/categories/cat_python/</loc>
   <lastmod>2019-07-22T09:52:00Z</lastmod>
  </url>
@@ -46,6 +50,10 @@
   <lastmod>2019-07-22T09:52:00Z</lastmod>
  </url>
  <url>
+  <loc>https://tanoshiisekai.github.io/categories/linux/</loc>
+  <lastmod>2019-07-27T17:51:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://tanoshiisekai.github.io/categories/python/</loc>
   <lastmod>2019-07-22T09:52:00Z</lastmod>
  </url>
@@ -56,6 +64,10 @@
  <url>
   <loc>https://tanoshiisekai.github.io/posts/appiumkong-zhi-jian-pan/</loc>
   <lastmod>2019-07-22T09:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://tanoshiisekai.github.io/posts/linux-pingbu-tong-wai-wang/</loc>
+  <lastmod>2019-07-27T17:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://tanoshiisekai.github.io/posts/modulenotfounderror-no-module-named-flaskext/</loc>
